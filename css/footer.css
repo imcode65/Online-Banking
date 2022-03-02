@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+}
+
+footer .container {
+  width: 90%;
+  background-color: fuchsia;
+  margin: 0px auto;
+}
+
+footer {
+  clear: both;
+  background-color: #004156;
+  width: 100%;
+  text-align: left;
+}
+/*
+
+footer ul{
+    
+    background-color: darkturquoise;
+}
+
+footer ul li{
+    
+    background-color:firebrick;
+} */
+
+footer p {
+  font-size: 14px;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bed2dd;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+footer a {
+  font-size: 14px;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  color: #bed2dd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+footer label {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 45px;
+  font-size: 14px;
+  line-height: 15px;
+  margin-bottom: 500px;
+  font-weight: 600;
+  color: #56caf0;
+}
+
+.follow_us {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 8px;
+  /* //width: 300px; */
+  /* //height: 205px; */
+  float: left;
+  /* //background-color:darkslategrey; */
+}
+
+footer .contact {
+  padding: 10px;
+  margin: 5px;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 8px;
+  /* // width: 295px;
+  //height: 205px; */
+  float: left;
+  /* //background-color:darkslategrey; */
+}
+
+footer .links {
+  padding: 10px;
+  margin: 5px;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 8px;
+  /* //width: 300px; */
+  height: 205px;
+  float: left;
+  /* //background-color:darkslategrey; */
+}
+
+footer .About_GST {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 8px;
+  /* //width: 300px;
+  //height: 205px; */
+  float: left;
+  /* //background-color:darkslategrey; */
+}
+
+footer ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+footer .copyright {
+  /* border-top: 1px solid #475f81; */
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bed2dd;
+  background-color: #005f7d;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer .bestview {
+  background-color: #003344;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bed2dd;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

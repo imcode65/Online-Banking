@@ -1,0 +1,47 @@
+.debit_card_form_container {
+  background-color: #c5d9e2;
+  width: 35%;
+  margin: 5% auto;
+  /* // border-radius: 5px; */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.debit_card_form_container h3 {
+  text-align: center;
+  border: 1px solid rgba(44, 78, 134, 0.5);
+  background-color: #c5d9e2;
+  font-size: 3.5vh;
+  color: rgb(44, 78, 134);
+  font-weight: 500;
+  padding: 15px;
+  margin: 2% auto;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+}
+
+.debit_card_form_container input[type="text"],
+input[type="date"] {
+  padding: 2%;
+  width: 60%;
+  margin: 1% auto;
+  display: block;
+}
+
+.debit_card_form_container input[type="submit"] {
+  color: white;
+  font-size: 15px;
+  background-color: rgb(44, 78, 134);
+  border-radius: 3px;
+  box-shadow: 0px 3px black;
+  border: 0px;
+  display: block;
+  margin: 0px auto;
+  width: 60%;
+  padding: 2%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.debit_card_form_container input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgba(44, 78, 134, 0.8);
+}

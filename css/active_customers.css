@@ -1,0 +1,35 @@
+.active_customers_container {
+  margin: 5% auto;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 80%;
+  background-color: antiquewhite;
+  height: 80%;
+}
+
+table {
+  width: 200%;
+  font-size: 15px;
+  border-collapse: collapse;
+  border: 1px rgb(221, 221, 221);
+  /* //padding: 20px; */
+  text-align: center;
+}
+table th {
+  color: white;
+  height: 50px;
+  background-color: #005f7d;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(242, 242, 242);
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+td {
+  padding-left: 40px;
+  padding-right: 40px;
+}

@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header_main {
+  width: 100%;
+  background-color: #003344;
+}
+.navbar ul li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 0.6s;
+}
+
+.navbar ul li a:hover {
+  color: #17c3ba;
+}
+
+.navbar ul {
+  font-family: verdana;
+  margin-right: 20px;
+  text-align: right;
+  padding: 5px;
+  list-style: none;
+}
+.navbar li {
+  display: inline;
+  padding: 6px;
+}
+
+.navbar li span {
+  font-family: verdana;
+}
+
+.logo-name {
+  background-color: #004156;
+  height: 100px;
+}
+.name h5 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-top: 2.3%;
+  left: 2.2%;
+  /* //font-size: 24px; */
+  font-size: 1.5em;
+  font-family: verdana;
+  transition-duration: 0.8s;
+}
+.name h6 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-top: -1px;
+  left: 12%;
+  font-size: 0.701em;
+  font-family: verdana;
+  transition-duration: 0.8s;
+}
+
+.logo {
+  border-radius: 20px;
+  float: left;
+  margin-left: 5.9%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.logo_img {
+  transition-duration: 0.8s;
+  border-radius: 20px;
+}
+
+.dif_banking {
+  background-color: #005f7d;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 5%;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow: auto;
+}
+.dif_banking a {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-decoration: none;
+  transition-duration: 0.6s;
+  /* // background-color: black; */
+}
+.dif_banking a:hover {
+  color: #17c3ba;
+}
+.retail_banking {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #475f82;
+}
+.corporate_banking {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #475f82;
+}
+.international_banking {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #475f82;
+}
+.tax {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #475f82;
+}
+.bank_service {
+  float: left;
+  text-align: center;
+}
+
+.my_form {
+}
+.srch {
+  margin-left: 65%;
+  display: inline;
+  border: 0px;
+}
+
+.search {
+  border: 1px solid black;
+  border-radius: 2px;
+  color: black;
+  border: 0px;
+  padding: 10px;
+}
+.button {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: rgb(97, 162, 53);
+  padding: 10px;
+  border: 0px;
+}

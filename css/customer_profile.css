@@ -1,0 +1,68 @@
+.cust_profile_container {
+  /* //background-color: wheat; */
+}
+
+.acc_details {
+  width: 25%;
+  height: 45%;
+  background-color: rgb(242, 242, 242);
+  float: left;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+  border: 1px solid rgba(44, 78, 134, 0.3);
+  font-size: 2.3vh;
+}
+
+.acc_details label {
+  width: 90%;
+  background-color: white;
+  float: left;
+  padding: 2%;
+  margin: 2%;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.statement {
+  height: 45%;
+  width: 58%;
+  padding: 2%;
+  margin: 2%;
+  background-color: rgb(242, 242, 242);
+  float: left;
+  overflow: auto;
+  text-align: center;
+  border: 1px solid rgba(44, 78, 134, 0.3);
+}
+
+.statement table {
+  width: 100%;
+  margin: 1% auto;
+  /* //height: 2%; */
+  font-size: 2vh;
+  border-collapse: collapse;
+  border: 1px rgb(221, 221, 221);
+  /* //padding: 20px; */
+  text-align: center;
+}
+.statement table th {
+  color: white;
+  background-color: #005f7d;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.statement table tr:nth-child(even) {
+  background-color: rgb(242, 242, 242);
+}
+
+.statement table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.statement table tr td {
+  border: 1px solid rgb(219, 219, 219);
+
+  padding: 1%;
+  height: 50px;
+}

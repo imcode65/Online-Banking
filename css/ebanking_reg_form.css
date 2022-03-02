@@ -1,0 +1,58 @@
+::-webkit-input-placeholder {
+  font-size: 2.1vh;
+  /* //font-family:verdana; */
+}
+
+body {
+  background-image: url("img/regform_bg.JPG");
+  font-family: verdana;
+}
+
+.ebanking_reg_form_container_parent h3 {
+  text-align: center;
+  border: 1px solid rgba(44, 78, 134, 0.5);
+  background-color: #c5d9e2;
+  font-size: 3.5vh;
+  color: rgb(44, 78, 134);
+  font-weight: 500;
+  padding: 15px;
+  width: 30%;
+  margin: 2% auto;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+}
+.ebanking_reg_form_container_child {
+  border: 1px solid white;
+  padding: 2%;
+  margin: 5% auto;
+  background-color: #c5d9e2;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(44, 78, 134, 0.5);
+  width: 80%;
+  /* // border-radius: 15px; */
+  width: 80%;
+}
+.ebanking_reg_form_container_child input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 20%;
+  padding: 1%;
+  margin: 2%;
+  color: rgb(117, 117, 117);
+  border: 1px solid white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 2.1vh;
+}
+
+.ebanking_reg_form_container_child input[type="submit"] {
+  width: 12%;
+  color: white;
+  font-size: 3vh;
+  background-color: #004156;
+  border-radius: 3px;
+  box-shadow: 0px 2px black;
+  border: 0px;
+  display: block;
+  margin: 1% auto;
+  padding: 0.5%;
+}

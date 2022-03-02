@@ -1,0 +1,116 @@
+body {
+  /* //background-color: #B9EDEA; */
+  margin: 0px;
+}
+
+.staff_login_container h2 {
+  text-align: center;
+  color: black;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.formspace {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 600px;
+  margin: 0px auto;
+  box-shadow: 2px 2px 5px black;
+}
+.formspace2 {
+  border-top-right-radius: 20px;
+  width: 350x;
+  background-color: #6474a0;
+  height: 300px;
+}
+
+.form {
+  border-radius: 8px;
+  position: relative;
+  top: -50px;
+  background-color: white;
+  width: 300px;
+  height: 125px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-left: 7%;
+  box-shadow: 2px 2px 2px rgba(97, 97, 97, 0.5);
+}
+
+.form .login {
+  color: #616368;
+  position: relative;
+  top: -40px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* // text-shadow:  2px 2px 5px black; */
+}
+
+.userdetail {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #4a60d0;
+}
+
+input {
+  color: rgba(44, 44, 44, 0.9);
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.3);
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.customer_id input {
+  width: 250px;
+  margin-top: 5px;
+}
+
+.userpassword input {
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  cursor: pointer;
+  position: relative;
+  top: -6px;
+  padding: 18px;
+  margin-left: 43px;
+  font-size: 13px;
+  width: 220px;
+  border: 1px solid #426bd7;
+  background-color: #426bd7;
+  border-radius: 30px;
+  color: white;
+}
+
+.label_help {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0;
+  margin-left: 90px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: 0.8s;
+}
+
+.userloginimg {
+  position: relative;
+  margin-top: -150%;
+  margin: -150% 34%;
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<TITLE>Visual Studio 2010 SP1 Readme.htm</TITLE><style type="text/css"> UL.toc, OL.toc { list-style: none; font-family: arial } UL, OL { font-family: arial } LI.tocline1 { font-weight: bold; font-family: arial } LI.tocline2 { font-weight: normal; font-family: arial; text-indent: 2em; }LI.tocline3 { font-weight: normal; font-family: arial; text-indent: 4em; }P { font-size: 0.8em; font-family: arial }H1, H2, H3, H4, span, LI { font-family: arial }
+                                                    .style2
+                                                    {
+                                                        font-size: small;
+                                                    }
+                                                </style></HEAD>
+<BODY>
+<H1>
+Visual Studio 2010 SP1 Readme
+</H1>
+<p>Date Published: May 3, 2011</p>
+<P>For the latest version of the Readme, click <a href="http://go.microsoft.com/fwlink/?LinkId=210711">here</a>.</P>
+<UL class="toc">
+<li class="tocline1">1. <A href="#System Requirements">System Requirements</A></li>
+<li class="tocline2">1.1. <A href="#Supported Architectures">Supported Architectures</A></li>
+<li class="tocline2">1.2. <A href="#Supported Operating Systems">Supported Operating Systems</A></li>
+<li class="tocline2">1.3. <A href="#Hardware Requirements">Hardware Requirements</A></li>
+<li class="tocline1">2. <A href="#Known Issues">Known Issues</A></li>
+<li class="tocline2">2.1. <A href="#Installing">Installing</A></li>
+<li class="tocline2">2.2. <A href="#Uninstalling">Uninstalling</A></li>
+<li class="tocline2">2.3. <A href="#Maintenance">Maintenance</A></li>
+<li class="tocline2">2.4. <A href="#Product Issues">Product Issues</A></li>
+<li class="tocline3">2.4.1. <A href="#General Issues">General Issues</A></li>
+<li class="tocline3">2.4.2. <A href="#Code Editor">Code Editor</A></li>
+<li class="tocline3">2.4.3. <A href="#Languages">Languages</A></li>
+<li class="tocline3">2.4.4. <A href="#Visual Studio Tools for Office">Visual Studio Tools for Office</A></li>
+<li class="tocline3">2.4.5. <A href="#SharePoint Development">SharePoint Development</A></li>
+<li class="tocline3">2.4.6. <A href="#Web Development">Web Development</A></li>
+<li class="tocline3">2.4.7. <A href="#Windows Communication Foundation (WCF) Tools">Windows Communication Foundation (WCF) Tools</A></li>
+<li class="tocline3">2.4.8. <A href="#Windows Presentation Foundation (WPF) Tools">Windows Presentation Foundation (WPF) Tools</A></li>
+<li class="tocline3">2.4.9. <A href="#Windows Workflow Foundation (WF) Tools">Windows Workflow Foundation (WF) Tools</A></li>
+<li class="tocline3">2.4.10. <A href="#Windows SDK Integration">Windows SDK Integration</A></li>
+<li class="tocline3">2.4.11. <A href="#Debugger, Database, Diagnostics and Analysis Tools">Debugger, Database, Diagnostics and Analysis Tools</A></li>
+<li class="tocline3">2.4.12. <A href="#Architecture Tools">Architecture Tools</A></li>
+<li class="tocline3">2.4.13. <A href="#Testing Tools">Testing Tools</A></li>
+<li class="tocline3">2.4.14. <A href="#Lab Management Tools">Lab Management Tools</A></li>
+<li class="tocline3">2.4.15. <A href="#Team Explorer">Team Explorer</A></li>
+<li class="tocline3">2.4.16. <A href="#Setup Projects">Setup Projects</A></li>
+<li class="tocline1">3. <A href="#Related Links">Related Links</A></li>
+</UL>
+<H2>
+1. <A name="System Requirements">System Requirements</A>
+</H2>
+<P>
+<B>
+<A name="Supported Architectures">Supported Architectures:</A>
+
+</B>
+</P>
+    <ul style="font-size: small">
+        <li>x86</li>
+        <li>x64 (WOW)</li>
+    </ul>
+<P>
+<B>
+<A name="Supported Operating Systems">Supported Operating Systems:</A>
+
+</B>
+</P>
+    <ul style="font-size: small">
+        <li>Windows XP (x86) with Service Pack 3 - all editions except Starter Edition</li>
+        <li>Windows Vista (x86 and x64) with Service Pack 2 - all editions except Starter 
+            Edition</li>
+        <li>Windows 7 (x86 and x64)</li>
+        <li>Windows Server 2003 (x86 and x64) with Service Pack 2 - all editions
+            <ul>
+                <li><a href="http://www.microsoft.com/downloads/details.aspx?familyid=993c0bcf-3bcf-4009-be21-27e85e1857b1&amp;displaylang">
+                    MSXML6</a> must be installed</li>
+            </ul>
+        </li>
+        <li>Windows Server 2003 R2 (x86 and x64) - all editions</li>
+        <li>Windows Server 2008 (x86 and x64) with Service Pack 2 - all editions</li>
+        <li>Windows Server 2008 R2 (x64) - all editions</li>
+    </ul>
+<P>
+<B>
+<A name="Hardware Requirements">Hardware Requirements:</A>
+
+</B>
+</P>
+    <ul style="font-size: small">
+        <li>1.6 GHz or faster processor</li>
+        <li>1 GB RAM (1.5 GB on a virtual machine)</li>
+        <li>3 GB of available hard-disk space</li>
+        <li>5400 RPM hard-disk drive</li>
+        <li>DirectX 9-capable video card running at 1024 x 768 or higher display resolution</li>
+        <li>DVD-ROM drive</li>
+    </ul>
+<H2>
+2. <A name="Known Issues">Known Issues</A>
+</H2>
+<H3>
+2.1. <A name="Installing">Installing</A>
+</H3>
+<H4>
+2.1.1.  Visual C++ compiler installation fails when the Windows SDK 7.1 is installed, repaired, or modified after Visual Studio 2010 SP1 has been installed
+</H4>
+<P>If the Visual C++ Compilers checkbox is selected when Windows SDK 7.1 is installed, repaired, or modified after Visual Studio 2010 SP1 has been installed, the SDK installer attempts 
+to install an older version of compilers. One of the following messages may be displayed:</P>
+<ul style="font-size: small">
+  <li>Installation of the "Microsoft Windows SDK for Windows 7 Compilers for x86" product has reported the following error: Fatal error during installation.</li>
+</ul>
+<P>or</P>
+<ul style="font-size: small">
+  <li>Installation of the "Microsoft Windows SDK for Windows 7 Compilers for x64" product has reported the following error: Fatal error during installation.</li>
+</ul>
+<P><U>To resolve this issue:</U></P>
+<P>Condition 1: If the Visual C++ Compilers checkbox is selected when the Windows SDK 7.1 is installed, repaired, or modified after Visual Studio 2010 SP1 has been installed, the error may be encountered and some selected components may not be installed.&nbsp; </P>
+<P>Workaround: Clear the Visual C++ Compilers checkbox before you run the Windows SDK 7.1 installation, repair, or modification.</P>
+<P>Condition 2:  If the Visual C++ Compilers checkbox is selected when the Windows SDK 7.1 is installed, repaired, or modified after Visual Studio 2010 has been installed but Visual Studio 2010 SP1 has not been uninstalled, the error may be encountered.</P>
+<P>Workaround:  Uninstall Visual Studio 2010 SP1 and then rerun the Windows SDK 7.1 installation, repair, or modification.</P>
+<H4>
+2.1.2.  Visual Studio 2010 Service Pack 1 Setup cannot be run in Program Compatibility Mode
+</H4>
+<P>Visual Studio 2010 Service Pack 1 Setup&nbsp;fails with a 1603 (0x643) error code or blocks running in Program Compatibility Mode. Windows Program Compatibility Assistant indicates that Visual Studio Setup might not have installed correctly and prompts to reinstall it by using the recommended setting (Program Compatibility Mode).</P>
+<P><U>To resolve this issue:</U></P>
+<P>Visual Studio Setup cannot run in Program Compatibility Mode.&nbsp;Ensure that the Compatibility Mode setting is not enabled system-wide or for the Visual Studio Setup application.</P>
+<H4>
+2.1.3.  Visual Studio 2010 Service Pack 1 installation may fail when a USB drive or other removeable drive is connected
+</H4>
+<P>Before you install or reapply Visual Studio 2010 Service Pack 1, disconnect all removeable drives.&nbsp;If this is not possible, do not remove any such drive while Setup is running because doing so may cause Setup to prompt for sources that it temporarily wrote to the drive (because it had more free space than other drives) or to fail completely because it cannot find the files.</P>
+<P><U>To resolve this issue:</U></P>
+<P>Either remove the drives&nbsp;before you install Visual Studio 2010 Service Pack 1 or do&nbsp;not remove them&nbsp;while Setup is running.</P>
+<H4>
+2.1.4.  Visual Studio must be restarted after Visual Studio 2010 SP1 tooling for SQL Server Compact (Compact) 4.0 is installed
+</H4>
+<P>When a project that contains a Compact 4.0 .sdf file is opened and neither Compact nor Visual Studio Tools for SQL Server Compact 4.0 (Tools for Compact) is  installed, Visual Studio 2010 SP1 asks whether the user wants to install the missing component. If the user says "yes," Web Platform Installer downloads and installs either Compact or Tools for Compact.&nbsp; However, if the user then tries to open the .sdf file, an "unknown error" occurs because Tools for Compact 3.5 is already loaded and it cannot be unloaded and replaced by Tools for Compact 4.0 until Visual Studio is restarted.</P>
+<P><U>To resolve this issue:</U></P>
+<P>
+Restart Visual Studio after you install the SQL Server Compact 4.0 tooling.
+</P>
+<H4>
+2.1.5.  Visual Studio 2010 SP1 Help Viewer experience is broken if "Help Viewer Power Tool" was installed on non-English versions of Visual Studio 2010 before SP1 is installed
+</H4>
+<P>If "Help Viewer Power Tool" is installed on a non-English version of Visual Studio 2010 and then Visual Studio 2010 SP1 is installed, Help Viewer 1.1, which is installed with SP1, is not correctly configured and content may appear to be missing. When the "Help Viewer Power Tool" is installed on non-English Visual Studio 2010, changes are made to the QueryManifest.&lt;version&gt;.xml file. These changes must be reversed for Visual Studio 2010 SP1 to be successfully installed.</P>
+<P><U>To resolve this issue:</U></P>
+<P>There are two ways to address this issue:</P>
+<P>First Method: Edit the Query Manifest without removing the "Help Viewer Power Tool", and then install Visual Studio 2010 SP1.</P>
+<ol style="font-size: small">
+  <li>Open QueryManifest.&lt;version&gt;.xml in \ProgramData\Microsoft\HelpLibrary\manifest\.</li>
+  <P>Change all &lt;brandingPackageFileName&gt;dev10pt.mshc&lt;/brandingPackageFileName&gt; entries to &lt;brandingPackageFileName&gt;dev10.mshc&lt;/brandingPackageFileName&gt;.</P>
+  <P>Save the changes.</P>
+  <li>Install Visual Studio 2010 SP1. (The Power Tool will remain but will be ignored by SP1.)</li>
+</ol>
+<P>Second Method: Uninstall the "Help Viewer Power Tool", and then install Visual Studio 2010 SP1:</P>
+<ol style="font-size: small">
+  <li>Open QueryManifest.&lt;version&gt;.xml in \ProgramData\Microsoft\HelpLibrary\manifest\.</li>
+  <li>Change all locale-specific catalog entries, for example, &lt;catalog productId="VS" productVersion="100" productLocale="JA-JP" productDisplayName="" sourceType="index"&gt; to &lt;catalog productId="VS" productVersion="100" productLocale="EN-US" productDisplayName="" sourceType="index"&gt;.</li>
+  <li>Uninstall the Power Tool in the Programs section of the Control Panel.</li>
+  <li>Change the locale tags in the Query Manifest back to their original locale designators.</li>
+  <li>Change all &lt;brandingPackageFileName&gt;dev10pt.mshc&lt;/brandingPackageFileName&gt; entries to &lt;brandingPackageFileName&gt;dev10.mshc&lt;/brandingPackageFileName&gt;.</li>
+  <P>Save the changes.</P>
+  <li>Install Visual Studio 2010 SP1.</li>
+</ol>
+<H4>
+2.1.6.  Microsoft SQL Server 
+    licenses are contained in files with abbreviated names</H4>
+<P>As stated in the License Terms, licenses for Microsoft SQL Server software 
+    components accompanying Visual Studio are located in the following directory: ..\Program Files\Visual Studio 10.0\Licenses\1033.&nbsp; Many of the licenses are 
+    provided with an abbreviated file name.</P>
+<P><U>To resolve this issue:</U></P>
+<P>For ease of use, a table of license file names and their respective full product name is provided.</P>
+<p>
+    <table border="1">
+    <tr><th>License File Name</th><th>Full Product Name</th>
+    <tr><td>SQL08AppFrame.rtf</td><td>Microsoft SQL Server 2008 R2 Data-Tier Application Framework</td></tr>
+    <tr><td>SQL08AppProj.rtf</td><td>Microsoft SQL Server 2008 R2 Data-Tier Application Project System</td></tr>
+    <tr><td>SQL08CLRtypes.rtf</td><td>Microsoft System CLR Types For SQL Server 2008 R2</td></tr>
+    <tr><td>SQL08SMO.rtf</td><td>Microsoft SQL Server 2008 R2 Shared Management Objects</td></tr>
+    <tr><td>SqlEv31Eula.rtf</td><td>Microsoft SQL Server Compact 3.5 with Service Pack 2</td></tr>
+    <tr><td>SQLServer2008_License_EXPR.rtf</td><td>Microsoft SQL Server 2008 Express Edition</td></tr>
+    <tr><td>sql08tsqllangsvc.rtf</td><td>Microsoft SQL Server Transact-SQL Language Service 1.1</td></tr>
+    <tr><td>Microsoft SQL Server Transact-SQL Language Service 1.1.rtf</td><td>Microsoft SQL Server Transact-SQL Language Service 1.1</td></tr>
+</table>
+</p>
+<H4>
+2.1.7.  
+    The language version of the license file for  Microsoft SQL Server Transact-SQL Language Service 1.1 
+    is not correctly copied for German language installations</H4>
+<P>Depending on setup choices, when installing a German language version of Visual 
+    Studio, a German language version of Microsoft SQL Server Transact-SQL Language 
+    Service 1.1 might also 
+    be installed.  The correct 
+    license terms are displayed during setup, 
+but the wrong language version of the license terms is copied to the folder ...\Program Files\Microsoft SQL Server\100\SDK\Assemblies\de.</P>
+<P><U>To resolve this issue:</U></P>
+<P>A hotfix has been issued to update your installation with the correct German language copy of the license 
+    terms for Microsoft SQL Server Transact-SQL Language Service 1.1.&nbsp; The 
+    hotfix can be obtained <a href="http://go.microsoft.com/fwlink/?LinkId=211704">here</a>.</P>
+    <P>The correct German language license can also be found in the Visual Studio License 
+        directory ..\Program Files\Visual Studio 10.0\Licenses\1031.&nbsp; </P>
+
+<h4>
+2.1.8.  
+    Extraneous entries for Visual C++ Standard hotfixes appear in Installed Updates List</H4>
+<P>Visual Studio 2010 Service Pack 1 causes several entries to be created in the Installed Updates list. The entries are labeled “Hotfix for Visual C++ 
+Standard 2010 Beta 1” along with a KB number. Microsoft confirmed that no Beta 
+fixes are installed with Visual Studio 2010 Service Pack 1, and that each of the hotfixes listed are included in Visual Studio 2010 Service Pack 1.</P>
+<P><U>To resolve this issue:</U></P>
+
+<p>
+There is no workaround for this issue.  No Beta 1 hotfixes are installed on your system.  You cannot uninstall the updates or remove the entries from the Installed Updates list because no files are actually installed on your system.
+</p>
+
+
+<H3>
+2.2. <A name="Uninstalling">Uninstalling</A>
+</H3>
+<H4>
+2.2.1.  If Visual Studio 2010 Service Pack 1 is uninstalled, Visual Studio 2010 must be reinstalled to restore certain components
+</H4>
+<P>Visual Studio 2010 Service Pack 1 upgrades some components of the Visual Studio 2010 original release version. If you uninstall Service Pack 1, some of these components are removed 
+    completely from the machine and not downgraded to their original versions.</P>
+<P><U>To resolve this issue:</U></P>
+<P>Reinstall the Visual Studio 2010 original release version from the original source media or network installation location. In Setup, select the features that you want to reinstall.</P>
+<ol style="font-size: small">
+<LI>Browse to the location from which you installed Visual Studio 2010.</LI>
+<LI>Run setup.exe. If you are prompted by User Account Control to elevate, click Continue.</LI>
+<LI>Click Change or Remove Microsoft Visual Studio 2010.</LI>
+<LI>When Setup is loaded, click Next.</LI>
+<LI>Click Add or Remove Features.</LI>
+<LI>Select the features you want to reinstall.</LI>
+<UL>
+<LI>If the features you want are already selected, clear and then re-select one feature under every root feature that you want to reinstall.</LI></UL>
+<LI>Click Update.</LI></OL>
+<H4>
+2.2.2.  If Visual Studio 2010 Service Pack 1 is uninstalled, Visual Studio 2010 must be reinstalled before SP1 can be installed again
+</H4>
+<P>If Visual Studio 2010 Service Pack 1 is uninstalled, Visual Studio 2010 must be reinstalled before SP1 can be installed again.</P>
+<P><U>To resolve this issue:</U></P>
+<P>Read 2.2.1. in this readme for instructions about how to reinstall Visual Studio 2010 after SP1 is uninstalled. After Visual Studio 2010 is reinstalled, reapply SP1.</P>
+<H4>
+2.2.3.  If Visual Studio 2010 SP1, SQL Server Compact runtime, and Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0 ENU are installed, and then SP1 is uninstalled, an error may occur when a SQL Express database is created  
+</H4>
+<P>If Visual Studio 2010 SP1, SQL Server Compact runtime, and Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0 ENU are installed, and then SP1 is uninstalled, an error may occur when a SQL Express database (.mdf) file is created.</P>
+<P><U>To resolve this issue:</U></P>
+    <P>Repair the Visual Studio 2010 original release version&nbsp;and then uninstall the Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0 ENU (SSCEVSTools-ENU.msi)&nbsp;by using the Programs section in the Control Panel. </P>
+<H4>
+2.2.4.  Uninstalling Visual Studio 2010 SP1 removes Visual Studio Tools for Office and Visual Studio Tools for SharePoint features
+</H4>
+<P>Uninstalling Visual Studio 2010 SP1 removes the Visual Studio Tools for Office (VSTO) Design Time and Visual Studio Tools for SharePoint features.&nbsp;&nbsp;Because the Office and Sharepoint features in Visual Studio 2010 SP1 are major upgrades, they are removed when SP1 is removed and the earlier versions have to be restored in the Visual Studio 2010 original release version.</P>
+<P><U>To resolve this issue:</U></P>
+    <ol style="font-size: small">
+        <LI>In the Programs section of the Control Panel, right-click Microsoft Visual Studio 2010 and then click Uninstall\Change.</LI>
+  <LI>In the Maintenance Mode dialog box, click Next and then click Add or Remove Features. </LI>
+  <LI>Missing features&nbsp;have empty check boxes and a red "X" next to them. Select the the following features:</LI>
+  <UL>
+    <LI>Microsoft Office Developer Tools (x86) or (x64) for Office development. </LI>
+    <LI>Microsoft SharePoint Developer Tools for SharePoint development.</LI>
+  </UL>
+  <LI>Click Update.&nbsp;</LI>
+</OL>
+<H4>
+2.2.5.  Uninstalling Visual Studio 2010 Service Pack 1 prompts for source for Express editions
+</H4>
+<P>When Service Pack 1 is uninstalled, files may have to be copied from the original source media for Visual Studio 2010 or related products. If the source cannot be found automatically, you will be prompted to supply a location. For Express editions, additional steps are required to re-download and expand the source.</P>
+<P><U>To resolve this issue:</U></P>
+<ol style="font-size: small">
+  <LI>Go to <A href="http://www.microsoft.com/express/downloads/">Express downloads</A> on the Microsoft website.</LI>
+  <LI>Download the ISO, which contains all versions of Express except for Windows Phone.</LI>
+  <UL>
+    <LI>You can download the English ISO, except for Express for Windows Phone, from <A href="http://go.microsoft.com/?linkid=9709969.">http://go.microsoft.com/?linkid=9709969.</A></LI>
+    <LI>You can download the ISO for Express for Windows Phone separately, from <A href="http://go.microsoft.com/fwlink/?LinkId=201927">http://go.microsoft.com/fwlink/?LinkId=201927</A>.</LI>
+  </UL>
+  <LI>Burn the ISO to a DVD. We recommend that you verify the media after the burn process completes.</LI>
+  <LI>Open a Command Prompt window. (Click Start, click All Programs, click Accessories, and then click Command Prompt.)</LI>
+  <LI>Change directories to the DVD drive, and  then to the directory that corresponds to the product that is prompting for source. For example, if Visual C# Express is prompting for source, type: cd d:\vcsexpress (assumes that D: is your DVD drive).</LI>
+  <LI>To find the file for the next step, type: dir ixp*.exe</LI>
+  <LI>Using that file name, type: &lt;file name&gt;.exe /x:"%TEMP%\&lt;file name&gt;"<BR>For example: ixpvcs.exe /x:"%TEMP%\ixpvcs\"</LI>
+  <LI>In the prompt for source dialog box, browse to the location where you extracted the files in step 7.</LI>
+  <LI>Click OK to continue.</LI>
+</OL>
+<H4>
+2.2.6.  Uninstalling Visual Studio 2010 Service Pack 1 prompts for source
+</H4>
+<P>When Service Pack 1 is uninstalled, files may have to be copied from the original source media for Visual Studio 2010 or related products. If the source cannot be found automatically, you will be prompted to supply a location.</P>
+<P><U>To resolve this issue:</U></P>
+<ol style="font-size: small">
+  <LI>Locate the installation source that you used when you initially installed Visual Studio 2010.</LI>
+  <UL>
+    <LI>If you installed from a DVD, put in the drive.</LI>
+    <LI>If you installed from a network location, make sure that you are connected to the network and then browse to the location. If you are not sure of this location, contact your network administrator.</LI>
+    <LI>If you installed from the website, you can download the ISO for a trial version of the appropriate product and burn that to a DVD. We recommend that you verify the media after the burn process completes.</LI>
+      <UL>
+        <LI>Visual Studio 2010 Professional Trial - ISO: <A href="http://go.microsoft.com/fwlink/?LinkID=186893">http://go.microsoft.com/fwlink/?LinkID=186893</A></LI>
+        <LI>Visual Studio 2010 Premium Trial - ISO: <A href="http://go.microsoft.com/fwlink/?LinkID=186895">http://go.microsoft.com/fwlink/?LinkID=186895</A></LI>
+        <LI>Visual Studio 2010 Ultimate Trial - ISO: <A href="http://go.microsoft.com/fwlink/?LinkID=186897">http://go.microsoft.com/fwlink/?LinkID=186897</A></LI>
+      </UL>
+    </UL>
+  <LI>In the prompt for source dialog box, browse to the installation directory, select the MSI file, and click OK to continue.</LI>
+</OL>
+<H3>
+2.3. <A name="Maintenance">Maintenance</A>
+</H3>
+<H4>
+2.3.1.  Reinstalling Visual Studio 2010 Service Pack 1 may prompt for source
+</H4>
+<P>
+If you reinstall Service Pack 1, you may be prompted for a source.
+</P>
+<P><U>To resolve this issue:</U></P>
+<ol style="font-size: small">
+  <LI>Download the Visual Studio 2010 Service Pack 1 Setup application from <A href="http://go.microsoft.com/fwlink/?LinkId=209902">http://go.microsoft.com/fwlink/?LinkId=209902</A>. Save it in a location you will remember, for example, %USERPROFILE%\Downloads\.</LI>
+  <LI>Open a Command Prompt window. (Click Start, click All Programs, click Accessories, and then click Command Prompt.)</LI>
+  <LI>Type the following command to change directories to the location you saved in step 1: cd "%USERPROFILE%\Downloads"</LI>
+  <LI>Type the following command to download all installation packages: setup.exe /createlayout "%CD%\VS2010SP1"</LI>
+  <LI>In the prompt for source dialog box, find the MSI file for which you are prompted.</LI>
+</OL>
+<H3>
+2.4. <A name="Product Issues">Product Issues</A>
+</H3>
+<H4>
+2.4.1. <A name="General Issues">General Issues</A>
+</H4>
+<H4>
+2.4.1.1.  Updated documentation for Visual Studio 2010 SP1 is not available for 
+    download until March 16, 2011</H4>
+<P>You can use the Help Library Manager in Help Viewer 1.1 to download and install updated content from MSDN Online. Although updated documentation for Visual Studio 2010 SP1 is not available for download until March 16, 2011, it is available on the MSDN website.</P>
+<P><U>To resolve this issue:</U></P>
+<P>Access the <a href="http://go.microsoft.com/fwlink/?LinkId=210400">Visual Studio 2010 SP1 documentation</a> on the MSDN website now, and wait until March 16, 2011, to download it.</p>
+    <p>
+        For information about how to download updated 
+        content, see &quot;Getting Updates to Offline Content&quot; in 
+        <a href="http://go.microsoft.com/fwlink/?LinkId=210397">
+        Help Library Manager (Microsoft Help System)</a> on the 
+        MSDN website or in the Visual Studio 2010 documentation on your computer.</P>
+<H4>
+2.4.1.2.  Signing of managed assemblies for C++ applications that were converted before this Visual Studio 2010 SP1 release
+</H4>
+<P>In C++ applications in the Visual Studio 2010 original release version, you could not sign the generated assemblies by setting Linker -&gt; Advanced -&gt; Delay Sign to "Yes". This problem has been fixed in Visual Studio 2010 SP1, but if the application is converted in the original release version before SP1 is applied, the project file must be modified manually. </P>
+<P><U>To resolve this issue:</U></P>
+<P>To&nbsp;modify&nbsp;your project file so that your assemblies can be signed when "Delay Sign" is set to "Yes". </P>
+<ol style="font-size: small">
+  <LI>Find the "KeyFile", "DelaySign" property in the "ItemDefinitionGroup" for "Link".</LI>
+  <P>&lt;Link&gt;</P>
+  <P>&lt;GenerateDebugInformation&gt;true&lt;/GenerateDebugInformation&gt;</P>
+  <P>&lt;AdditionalDependencies&gt;</P>
+  <P>&lt;/AdditionalDependencies&gt;</P>
+  <P>&lt;KeyFile&gt;my.snk&lt;/KeyFile&gt;</P>
+  <P>&lt;DelaySign&gt;true&lt;/DelaySign&gt;</P>
+  <P>&lt;/Link&gt;</P>
+  <LI>Move these properties to the "PropertyGroup" of the corresponding Configuration/Platform.</LI>
+  <LI>Change the "KeyFile" property to "LinkKeyFile".</LI>
+  <LI>Change the "DelaySign" property to "LinkDelaySign".</LI>
+  <LI>The modified property should resemble this:</LI>
+  <P>&lt;PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration"&gt;</P>
+  <P>&lt;ConfigurationType&gt;Application&lt;/ConfigurationType&gt;</P>
+  <P>&lt;LinkKeyFile&gt;my.snk&lt;/LinkKeyFile&gt;</P>
+  <P>&lt;LinkDelaySign&gt;true&lt;/LinkDelaySign&gt;</P>
+  <P>&lt;/PropertyGroup&gt;</P>
+  <LI>If you have Custom build steps set to sign the binaries (as was recommended to fix the problem in the original release version),&nbsp; you can remove them now.</LI>
+</ol>
+<H4>
+2.4.2. <A name="Code Editor">Code Editor</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.3. <A name="Languages">Languages</A>
+</H4>
+<H4>
+2.4.3.1.  Async CTP
+</H4>
+<P>If you installed the pre-SP1 version of Async CTP but did not uninstall it before you installed Visual Studio 2010 SP1, then&nbsp;your computer will be in a state in which the version of the C# compiler in the .NET Framework does not match the C# compiler in Visual Studio. </P>
+<P><U>To resolve this issue:</U></P>
+<P>After you install Visual Studio 2010 SP1, reinstall the SP1 version of the Async CTP from <A href="http://www.microsoft.com/downloads/details.aspx?FamilyID=18712f38-fcd2-4e9f-9028-8373dc5732b2">here</A>.</P>
+<H4>
+2.4.4. <A name="Visual Studio Tools for Office">Visual Studio Tools for Office</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.5. <A name="SharePoint Development">SharePoint Development</A>
+</H4>
+<H4>
+2.4.5.1.  In SharePoint Designer, creating a reusable workflow that has spaces in its name, exporting the workflow into a .wsp, and then using the 'Import Reusable WF' template to import it causes a build error
+</H4>
+<P>If you create a reusable workflow in SharePoint Designer that has a name that contains spaces, export the workflow into a .wsp, and then import&nbsp;the workflow&nbsp;into Visual Studio by using the "Import Reusable Workflow" template, errors occur when you build the project.</P>
+<P><U>To resolve this issue:</U></P>
+<P>The class that is generated has spaces in it.</P>
+<P>For Visual Basic</P>
+<ol style="font-size: small">
+  <LI>Click 'Show all files' in Solution Explorer.</LI>
+  <LI>Expand the 'Workflows' folder.</LI>
+  <LI>Locate the &lt;workflowname&gt;.xoml.vb file and open it.</LI>
+  <LI>Select the class name (including the spaces).</LI>
+  <LI>Replace all instances of the class name with a name that does not have spaces. (Replace in the entire solution.)</LI>
+  <LI>Build. There should be no build errors.</LI>
+</OL>
+<P>For C#</P>
+<ol style="font-size: small">
+  <LI>Click 'Show all files' in Solution Explorer.</LI>
+  <LI>Expand the 'Workflows' folder.</LI>
+  <LI>Locate the &lt;workflowname&gt;.xoml.cs file and open it.</LI>
+  <LI>Select the class name (including the spaces).</LI>
+  <LI>Replace all instances of the class name with a name that does not have spaces. (Replace in the entire solution.)</LI>
+  <LI>Build. There should be no build errors.</LI>
+</OL>
+<H4>
+2.4.6. <A name="Web Development">Web Development</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.7. <A name="Windows Communication Foundation (WCF) Tools">Windows Communication Foundation (WCF) Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.8. <A name="Windows Presentation Foundation (WPF) Tools">Windows Presentation Foundation (WPF) Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.9. <A name="Windows Workflow Foundation (WF) Tools">Windows Workflow Foundation (WF) Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.10. <A name="Windows SDK Integration">Windows SDK Integration</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.11. <A name="Debugger, Database, Diagnostics and Analysis Tools">Debugger, Database, Diagnostics and Analysis Tools</A>
+</H4>
+<H4>
+2.4.11.1.  Installing Visual Studio 2010 SP1 breaks profiling for x64 applications on Windows Server 2003 x64
+</H4>
+<P>
+After Visual Studio Service Pack 1 is installed on Windows Server 2003 x64, profiling 64-bit applications fails and the "PRF0010: Launch Aborted - Unable to start vsperfmon.exe" message is displayed.&nbsp; This occurs because SP1 Setup breaks the registration of the 64-bit version of vsperfmon.exe.
+</P>
+<P><U>To resolve this issue:</U></P>
+<P>Install the Visual Studio 2010 Standalone Profiler SP1, which is available from MSDN.&nbsp;&nbsp;This fixes the registration of vsperfmon.exe and enables 64-bit applications to be profiled from Visual Studio.</P>
+<H4>
+2.4.12. <A name="Architecture Tools">Architecture Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.13. <A name="Testing Tools">Testing Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.14. <A name="Lab Management Tools">Lab Management Tools</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.15. <A name="Team Explorer">Team Explorer</A>
+</H4>
+<P>There are no known issues.</P>
+<H4>
+2.4.16. <A name="Setup Projects">Setup Projects</A>
+
+<p>VCRedist SP1 packages have RTM Fwlinks that point to RTM packages. Users should be able to edit them in case they want to download correct SP1 packages</p>
+</H4>
+<P>After installing VS SP1 patch, if the user adds VCRedist as a prerequisite to a setup project and chooses "home site" option, the setup project installation will download RTM VCRedist packages instead of SP1 VCRedist packages.
+</P>
+<P>Generated ClickOnce manifests have RTM fwlinks that point to the RTM uploaded packages and not the SP1 packages.</P>
+<P><U>To resolve this issue:</U></P>
+
+    <p>
+        The user can manually edit VCRedist package.xml to replace the RTM fwlinks with the new SP1 fwlinks.</li>
+
+    </p>
+
+    <ul>
+        <li class="style2">For VCRedist_x86: Package.xml can be found under &lt;Program Files>\Microsoft SDKs\Windows\v8.0A\Bootstrapper\Packages\vcredist_x86\&lt;lang&gt;</li>
+        <li class="style2">For VCRedist_x64: Package.xml can be found under &lt;Program Files>\Microsoft SDKs\Windows\v8.0A\Bootstrapper\Packages\vcredist_x64\&lt;lang&gt; 
+        </li>
+        <li class="style2">For VCRedist_IA64: Package.xml can be found under &lt;Program 
+            Files&gt;\Microsoft SDKs\Windows\v8.0A\Bootstrapper\Packages\vcredist_IA64\&lt;lang&gt;</li>
+    </ul>
+
+<p>Package.xml should contain RTM fwlinks - e.g.</p>
+<p>....</p>
+
+<p>&lt;String Name="VCRedistExe">http://go.microsoft.com/fwlink/?LinkID=177916&amp;clcid=0x409&lt;/String></p>
+
+<p>...</p>
+    <p>
+        The link in the above tag should be replaced with the following fwlink:</p>
+    
+       
+        <ul>
+            <li class="style2">In case of x86:  http://go.microsoft.com/fwlink/?LinkID=210621 
+            </li>
+            <li class="style2">In case of x64: http://go.microsoft.com/fwlink/?LinkID=210622 
+            </li>
+            <li class="style2">In case of IA64: http://go.microsoft.com/fwlink/?LinkID=210623 
+            </li>
+    </ul>
+
+
+            <H4>
+            </H4>
+            <H2>
+3. <A name="Related Links">Related Links</A>
+            </H2>
+            <h4>
+                3.1.  Related Readme Files</h4>
+            <P>
+                <a href="http://go.microsoft.com/fwlink/?LinkId=210713">Team Foundation Server 2010 SP1 Readme</a></P>
+            <P>
+                <a href="http://go.microsoft.com/fwlink/?LinkId=210714">Help Viewer 1.1 Readme</a></P>
+            <p>
+                &nbsp;</p>
+            <P>
+                &copy; 2011 Microsoft Corporation. All rights reserved.</P>
+            <P>
+                <a id="ctl00_BottomControl1_MSFT_Terms" href="http://msdn.microsoft.com/cc300389.aspx" title="Terms of Use">Terms of Use</a>  |
+                <a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx" title="Trademarks">Trademarks</a>  |
+                <a href="http://www.microsoft.com/info/privacy.mspx" title="Privacy Statement">Privacy Statement</a>
+            </P>
+</BODY>
+</HTML>

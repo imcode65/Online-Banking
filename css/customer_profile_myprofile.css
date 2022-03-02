@@ -1,0 +1,23 @@
+.myprofile_container {
+  margin: 2.7% auto;
+  width: 80%;
+  background-color: rgb(240, 248, 255);
+  border: 1px solid black;
+}
+
+.customer_profile_photo img {
+  border: 1px solid black;
+}
+
+.customer_profile_details {
+  width: 80%;
+  margin: 0px auto;
+  padding: 5%;
+}
+
+.myprofile_container label {
+  /* //text-align: center; */
+  display: block;
+  padding: 1%;
+  border: 1px solid rgb(201, 214, 231);
+}

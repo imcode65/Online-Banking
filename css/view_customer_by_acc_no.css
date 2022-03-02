@@ -1,0 +1,47 @@
+.view_cust_byac_container_inner {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  margin: 5% auto;
+}
+
+.view_cust_byac_container_inner .cust_details {
+  background-color: #f0f8ff;
+  margin: 3px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  height: 100%;
+}
+
+.view_cust_byac_container_inner .cust_details label {
+  border: 1px solid rgba(44, 78, 134, 0.2);
+  padding: 8px;
+  float: left;
+  text-align: left;
+  margin: 5px;
+  width: 97%;
+  font-size: 15px;
+}
+
+.view_cust_byac_container_outer {
+  margin: 5% auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 30%;
+  background-color: #c5d9e2;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.view_cust_byac_container_outer input {
+  padding: 4%;
+  margin: 2.5%;
+  width: 60%;
+}
+.view_cust_byac_container_outer input[type="submit"] {
+  background-color: #004156;
+  font-size: 16;
+  color: white;
+  border: 0px;
+}

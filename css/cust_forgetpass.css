@@ -1,0 +1,51 @@
+* {
+  /* // font-family: verdana; */
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+  /* //font-family:verdana; */
+}
+
+.forgetpass_cotainer p {
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+}
+.forgetpass_cotainer {
+  background-color: rgb(185, 237, 234);
+  width: 400px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.forgetpass_cotainer input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 12%;
+  border: 0px;
+  border-radius: 3px;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+
+.forgetpass_cotainer input[type="submit"] {
+  color: white;
+  font-size: 24px;
+
+  background-color: rgb(44, 78, 134);
+  border-radius: 3px;
+  box-shadow: 0px 2px black;
+  border: 0px;
+}
+
+.forgetpass_cotainer input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgba(11, 30, 89, 0.8);
+}

@@ -1,0 +1,29 @@
+.cust_credit_container {
+  padding: 2%;
+  background-color: #c5d9e2;
+  width: 28%;
+  margin: 3% auto;
+  text-align: center;
+  color: rgb(5, 21, 71);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cust_credit_container input {
+  padding: 3%;
+  margin: 2%;
+  width: 60%;
+}
+
+.cust_credit_container input[type="submit"] {
+  background-color: #004156;
+  border: 0px;
+  color: white;
+  font-size: 2.5vh;
+  transition: 0.5s;
+  border-bottom: 3px solid black;
+}
+
+.cust_credit_container input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #002f3f;
+}

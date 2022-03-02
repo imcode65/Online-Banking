@@ -1,0 +1,30 @@
+body{
+    
+    margin: 50px;
+    background-color: white;
+}
+article{
+    
+    line-height: 30px;
+    color:#333;
+    width:70%;
+    margin: 0px auto;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #F5F5F5;
+    text-align: justify;  
+    padding: 50px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.6);
+    border-radius: 15px;
+}
+
+ul{
+    
+    list-style-image: url(../img/bullet1.jpg);
+}
+
+ol{
+    
+    list-style-type: lower-roman;
+}
